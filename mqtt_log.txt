@@ -1,0 +1,116 @@
+Started listening on topic/planta/10441/7033
+Connected to AWS IoT
+Subscribed to topic/planta/10441/7033
+Command published to topic/planta/10441: ps
+Received message from topic/planta/10441/7033: ************************************
+Seq: 9
+************************************
+  PID USER       VSZ STAT COMMAND
+    1 root      1564 S    /sbin/procd
+    2 root         0 SW   [kthreadd]
+    4 root         0 IW<  [kworker/0:0H]
+    6 root         0 IW<  [mm_percpu_wq]
+    7 root         0 SW   [ksoftirqd/0]
+    8 root         0 SW   [oom_reaper]
+  108 root         0 IW<  [writeback]
+  110 root         0 SW   [kcompactd0]
+  111 root         0 IW<  [crypto]
+  113 root         0 IW<  [kblockd]
+  138 root         0 IW<  [watchdogd]
+  231 root         0 SW   [kswapd0]
+  290 root         0 SW   [spi0]
+  385 root         0 IW<  [ipv6_addrconf]
+  392 root         0 IW<  [kworker/0:1H]
+  477 root         0 SW   [mmcqd/0]
+  532 root         0 SWN  [jffs2_gcd_mtd6]
+  708 root      1208 S    /sbin/ubusd
+  713 root       900 S    /sbin/askfirst /usr/libexec/login.sh
+  851 root         0 IW<  [rpciod]
+  855 root         0 IW<  [xprtiod]
+  914 root         0 IW<  [nfsiod]
+ 1179 root         0 SW<  [krfcommd]
+ 1465 root      1228 S    /sbin/logd -S 64
+ 1486 root      1932 S    /sbin/rpcd
+ 1519 root      1436 S    /sbin/blockd
+ 1668 root      1724 S    /sbin/netifd
+ 1695 root      1432 S    /usr/sbin/odhcpd
+ 1726 root         0 SWN  [jffs2_gcd_mtd7]
+ 1727 root         0 SW   [jbd2/mmcblk0p1-]
+ 1728 root         0 IW<  [ext4-rsv-conver]
+ 1746 root      1220 S    /usr/sbin/crond -f -c /etc/crontabs -l 8
+ 1902 root      4092 S    /usr/sbin/lighttpd -f /etc/lighttpd/lighttpd.conf
+ 1918 root      3060 S    /usr/sbin/sshd -D
+ 1943 nobody    2500 S    avahi-daemon: running [SMQGW07033.local]
+ 2101 root      1216 S    /bin/ash /usr/smq/bin/ext_wdog.sh -run
+ 2394 root      1216 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2395 root      1216 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2398 root       904 S    /usr/smq/bin/SystemCheck -c 250 1
+ 2399 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2400 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2403 root     17392 S    /usr/smq/bin/BLE5_Bridge
+ 2404 root     17304 S    /usr/smq/bin/BLE5_MCUControl
+ 2405 root       920 S    /usr/smq/bin/rtc -check https://axon-naz.semeq.com.b
+ 2416 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2417 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2418 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2419 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2420 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2421 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2422 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2423 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2424 root      1672 S    /usr/smq/bin/network -c 120 5
+ 2427 root      1224 S    ash /usr/smq/bin/route.sh
+ 2428 root      1252 S    ash /usr/smq/bin/sync.sh
+ 2429 root     21244 S    /usr/smq/bin/BLE5_SensorControl
+ 2430 root     17296 S    /usr/smq/bin/BLE5_OTAControl
+ 2431 root     17296 S    /usr/smq/bin/BLE5_InternalConfig
+ 2432 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2433 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2434 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2435 root      1220 S    /bin/ash /usr/smq/bin/init_boot.sh
+ 2437 root      1216 S    ash /usr/smq/bin/check_route.sh
+ 2438 root      1236 S    ash /usr/smq/bin/log.sh
+ 2440 root      1216 S    ash /usr/smq/bin/check_sdcard.sh
+ 2506 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+ 2509 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+ 4285 root         0 IW   [kworker/u2:2]
+ 4988 dnsmasq   1324 S    /usr/sbin/dnsmasq -C /var/etc/dnsmasq.conf.cfg01411c
+ 5922 root      2980 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+ 6418 root     10324 S    /usr/smq/bin/sqs_client 10441 /usr/smq/rep/route_v2
+10072 root         0 IW   [kworker/0:1]
+10409 root         0 IW   [kworker/u2:0]
+10913 root      1216 S    sleep 1800
+12546 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+12582 root      1216 S    sleep 300
+12600 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+13254 root         0 IW   [kworker/u2:1]
+13754 root      1216 S    sleep 60
+13819 root      1252 S    ash /usr/smq/bin/sync.sh
+13820 root      1180 S    tar cvzf /tmp/10441_07033_20240716214655.tgz -C /usr
+13821 root      1216 S    sort -r
+13822 root      1468 R    gzip
+13856 root       936 S    /usr/smq/bin/SensorConfig 1440
+13864 root      1216 S    sleep 30
+13897 root      1216 S    sleep 10
+13904 root      2624 S    curl --max-time 120 -k -s https://api-service.semeq.
+13908 root      1016 S    /usr/smq/bin/mqttclient
+13909 root      1216 R    ps
+14264 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+21680 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+21835 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+21862 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+23021 root      1016 S    /usr/smq/bin/mqttclient
+23028 root      2980 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+25021 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+29419 root         0 IW   [kworker/0:0]
+29494 root         0 SW   [RtmpCmdQTask]
+29502 root         0 SW   [RtmpWscTask]
+29503 root         0 SW   [RtmpMlmeTask]
+29663 root       936 S    /sbin/ap_client preference ra0 apcli0 -1,-1,-1,-1,-1
+29694 root      1216 S    udhcpc -p /var/run/udhcpc-apcli0.pid -s /lib/netifd/
+31339 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+32612 root      3004 S    /usr/bin/mosquitto_sub --cafile /etc/ssl/certs/mqtt_
+
+************************************
+
+
